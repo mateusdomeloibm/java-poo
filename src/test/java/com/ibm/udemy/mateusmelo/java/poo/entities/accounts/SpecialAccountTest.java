@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SpecialAccountTest {
     private SpecialAccount account;
+
     @BeforeEach
     void setUp() {
         account = new SpecialAccount("Mateus", 4321, 250);
