@@ -18,4 +18,4 @@ _O intuito do projeto é compilar e contemplar os assuntos apresentados e pratic
 
 ---
 #### Certificado de conclusão
-[Visualizar](ude.my/UC-41b4b8e3-1107-4d59-8467-96b23c792b36)
+[Visualizar](https://ude.my/UC-41b4b8e3-1107-4d59-8467-96b23c792b36)
