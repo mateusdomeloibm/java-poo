@@ -28,13 +28,15 @@ class SpecialAccountTest {
     }
 
     @Test
-    void testDeposit() {
+    void testDepositShouldHaveSuccess() {
         account.deposit(3000);
         int expected = 5000;
         assertEquals(expected, account.getBalance());
     }
 
     @Test
-    void showAccount() {
+    void testResumeShouldHaveSuccessAndResumeAccountData() {
+        String expectedMsg = "Client: Mateus\nAccount Number: 4321\nBalance: 2000.00\n";
+        assertEquals(expectedMsg, account.resume());
     }
 }
